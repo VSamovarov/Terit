@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./docker/nginx/logs/nginx:/var/log/nginx
+    environment:
+      - NGINX_HOST=terit.local.dev
+    depends_on:
+      - php-fpm
+  php-fpm:
+    build:
+      context: ./docker/php-fpm
+    volumes:
+      - ./:/var/www

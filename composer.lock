@@ -1,0 +1,411 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ed84a00f7a57b3538084a82221faefc8",
+    "packages": [
+        {
+            "name": "mrcnpdlk/lib-configuration",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcnpdlk/lib-configuration.git",
+                "reference": "c51c8ad1bf749fe592ab9a31a9b6e2d5dd2cf71e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcnpdlk/lib-configuration/zipball/c51c8ad1bf749fe592ab9a31a9b6e2d5dd2cf71e",
+                "reference": "c51c8ad1bf749fe592ab9a31a9b6e2d5dd2cf71e",
+                "shasum": ""
+            },
+            "require": {
+                "mrcnpdlk/lib-exception": "^0",
+                "php": ">=7.2",
+                "psr/log": "^1||^2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mrcnpdlk\\Lib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Pudełek",
+                    "email": "marcin@pudelek.org.pl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Configuration Option Library",
+            "support": {
+                "issues": "https://github.com/mrcnpdlk/lib-configuration/issues",
+                "source": "https://github.com/mrcnpdlk/lib-configuration/tree/0.1.2"
+            },
+            "time": "2021-09-16T11:54:27+00:00"
+        },
+        {
+            "name": "mrcnpdlk/lib-exception",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcnpdlk/lib-exception.git",
+                "reference": "159747cd0c8b8db97a26236aa00559666ce209ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcnpdlk/lib-exception/zipball/159747cd0c8b8db97a26236aa00559666ce209ff",
+                "reference": "159747cd0c8b8db97a26236aa00559666ce209ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mrcnpdlk\\Lib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Pudełek",
+                    "email": "marcin@pudelek.org.pl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Exception Library",
+            "support": {
+                "issues": "https://github.com/mrcnpdlk/lib-exception/issues",
+                "source": "https://github.com/mrcnpdlk/lib-exception/tree/0.1.0"
+            },
+            "time": "2019-03-30T19:11:27+00:00"
+        },
+        {
+            "name": "mrcnpdlk/psr16cache-adapter",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcnpdlk/psr16cache-adapter.git",
+                "reference": "246520698c7af2d715f31390463788dd4f09bbcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcnpdlk/psr16cache-adapter/zipball/246520698c7af2d715f31390463788dd4f09bbcb",
+                "reference": "246520698c7af2d715f31390463788dd4f09bbcb",
+                "shasum": ""
+            },
+            "require": {
+                "psr/log": "~1.0",
+                "psr/simple-cache": "~1.0"
+            },
+            "require-dev": {
+                "monolog/monolog": "^1.23",
+                "phpfastcache/phpfastcache": "~6.0",
+                "phpunit/phpunit": "~6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mrcnpdlk\\Psr16Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Pudełek",
+                    "email": "marcin@pudelek.org.pl"
+                }
+            ],
+            "description": "Cache adapter for PSR-16",
+            "keywords": [
+                "cache",
+                "psr16"
+            ],
+            "support": {
+                "issues": "https://github.com/mrcnpdlk/psr16cache-adapter/issues",
+                "source": "https://github.com/mrcnpdlk/psr16cache-adapter/tree/devel"
+            },
+            "time": "2017-10-27T20:09:21+00:00"
+        },
+        {
+            "name": "mrcnpdlk/teryt-api",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcnpdlk/teryt-api.git",
+                "reference": "0574f102cfeea9961a2f9a44d80e1ef0aaec26a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcnpdlk/teryt-api/zipball/0574f102cfeea9961a2f9a44d80e1ef0aaec26a2",
+                "reference": "0574f102cfeea9961a2f9a44d80e1ef0aaec26a2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-soap": "*",
+                "mrcnpdlk/lib-configuration": "^0",
+                "mrcnpdlk/lib-exception": "^0",
+                "mrcnpdlk/psr16cache-adapter": "^0",
+                "php": ">=7.2",
+                "robrichards/wse-php": "^2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2",
+                "jangregor/phpstan-prophecy": "^0",
+                "mockery/mockery": "^1",
+                "monolog/monolog": "^1.23",
+                "phpfastcache/phpfastcache": "^7",
+                "phpstan/phpstan": "^0",
+                "phpstan/phpstan-phpunit": "^0",
+                "phpunit/php-code-coverage": "^7",
+                "phpunit/phpunit": "^8"
+            },
+            "suggest": {
+                "monolog/monolog": "^1",
+                "phpfastcache/phpfastcache": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mrcnpdlk\\Teryt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Pudełek",
+                    "email": "marcin@pudelek.org.pl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Teryt WS1 Api",
+            "keywords": [
+                "address",
+                "soap",
+                "teryt"
+            ],
+            "support": {
+                "issues": "https://github.com/mrcnpdlk/teryt-api/issues",
+                "source": "https://github.com/mrcnpdlk/teryt-api/tree/1.0.1"
+            },
+            "time": "2020-09-21T10:53:17+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/master"
+            },
+            "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "robrichards/wse-php",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robrichards/wse-php.git",
+                "reference": "89e1393251121238d6d8d9194f027159dd05bf7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robrichards/wse-php/zipball/89e1393251121238d6d8d9194f027159dd05bf7a",
+                "reference": "89e1393251121238d6d8d9194f027159dd05bf7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3",
+                "robrichards/xmlseclibs": ">=3.0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobRichards\\WsePhp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Richards",
+                    "homepage": "http://www.cdatazone.org/",
+                    "role": "Main developer"
+                }
+            ],
+            "description": "Libraries for adding WS-* support to ext/soap in PHP.",
+            "homepage": "https://github.com/robrichards/wse-php",
+            "keywords": [
+                "WS-Security",
+                "soap",
+                "ws-addressing"
+            ],
+            "support": {
+                "issues": "https://github.com/robrichards/wse-php/issues",
+                "source": "https://github.com/robrichards/wse-php/tree/master"
+            },
+            "time": "2020-05-11T16:50:52+00:00"
+        },
+        {
+            "name": "robrichards/xmlseclibs",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robrichards/xmlseclibs.git",
+                "reference": "f8f19e58f26cdb42c54b214ff8a820760292f8df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/f8f19e58f26cdb42c54b214ff8a820760292f8df",
+                "reference": "f8f19e58f26cdb42c54b214ff8a820760292f8df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": ">= 5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobRichards\\XMLSecLibs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "A PHP library for XML Security",
+            "homepage": "https://github.com/robrichards/xmlseclibs",
+            "keywords": [
+                "security",
+                "signature",
+                "xml",
+                "xmldsig"
+            ],
+            "support": {
+                "issues": "https://github.com/robrichards/xmlseclibs/issues",
+                "source": "https://github.com/robrichards/xmlseclibs/tree/3.1.1"
+            },
+            "time": "2020-09-05T13:00:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

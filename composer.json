@@ -1,0 +1,26 @@
+{
+    "name": "heichenko/teryt-api",
+    "description": "Teryt WS1 Api",
+    "keywords": [
+        "teryt",
+        "address",
+        "soap"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Heichenko",
+            "email": "v.heychenko@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "mrcnpdlk/teryt-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "heichenko\\Terit\\": "src/"
+        }
+    }
+}
